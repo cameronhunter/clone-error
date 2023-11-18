@@ -6,9 +6,12 @@
     "build": "tsc",
     "format": "prettier --write .",
     "test": "jest",
-    "publish": "changeset version && changeset publish && git push --tags"
+    "publish": "pnpm build && changeset version && changeset publish && git push --tags"
   },
   "keywords": [],
+  "files": [
+    "build"
+  ],
   "author": "Cameron Hunter <hello@cameronhunter.co.uk>",
   "license": "MIT",
   "devDependencies": {

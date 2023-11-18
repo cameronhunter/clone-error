@@ -1,5 +1,11 @@
 # @cameronhunter/clone-error
 
+## 1.0.2
+
+### Patch Changes
+
+-   ac28cfe: Removing setting the name property
+
 ## 1.0.1
 
 ### Patch Changes

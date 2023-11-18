@@ -6,7 +6,7 @@
     "build": "tsc",
     "format": "prettier --write .",
     "test": "jest",
-    "publish": "changeset version && changeset publish"
+    "publish": "changeset version && changeset publish && git push --tags"
   },
   "keywords": [],
   "author": "Cameron Hunter <hello@cameronhunter.co.uk>",

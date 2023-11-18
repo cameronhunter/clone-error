@@ -8,7 +8,6 @@ export function cloneError(err: unknown, overrides?: { cause?: unknown }): Error
     // @ts-expect-error Ensure that the clone has the same instance type.
     clone.__proto__ = err.__proto__;
 
-    clone.name = err.name;
     clone.stack = err.stack;
 
     if (err.cause) {

@@ -6,7 +6,7 @@
     "build": "tsc -p ./tsconfig.build.json",
     "format": "prettier --write .",
     "test": "jest",
-    "publish": "pnpm test && pnpm build && changeset && changeset version && changeset publish && git push --tags"
+    "publish": "pnpm test && pnpm build && changeset && changeset version && changeset publish"
   },
   "keywords": [],
   "files": [

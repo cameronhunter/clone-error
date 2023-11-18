@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
--   f8d0cd1: Fix the build within the published artifact
+-   2ab3e84: Fix the published artifact
 
 ## 1.0.0
 

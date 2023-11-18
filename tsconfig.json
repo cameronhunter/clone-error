@@ -1,12 +1,10 @@
 {
-  "extends": "@tsconfig/node-lts/tsconfig.json",
-  "include": [
-    "src",
-    "test"
-  ],
-  "compilerOptions": {
-    "outDir": "build",
-    "declaration": true,
-    "sourceMap": true
-  }
+    "extends": "./tsconfig.build.json",
+    "include": [
+        "src",
+        "test"
+    ],
+    "compilerOptions": {
+        "noEmit": true
+    }
 }

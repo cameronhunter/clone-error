@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Clone an error with an optional cause",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p ./tsconfig.build.json",
     "format": "prettier --write .",
     "test": "jest",
     "publish": "pnpm test && pnpm build && changeset && changeset version && changeset publish && git push --tags"
@@ -12,6 +12,8 @@
   "files": [
     "build"
   ],
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "author": "Cameron Hunter <hello@cameronhunter.co.uk>",
   "license": "MIT",
   "devDependencies": {

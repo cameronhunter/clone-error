@@ -1,11 +1,12 @@
 {
   "name": "@cameronhunter/clone-error",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Clone an error with an optional cause",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write .",
-    "test": "jest"
+    "test": "jest",
+    "publish": "changeset version && changeset publish"
   },
   "keywords": [],
   "author": "Cameron Hunter <hello@cameronhunter.co.uk>",

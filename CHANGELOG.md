@@ -1,5 +1,11 @@
 # @cameronhunter/clone-error
 
+## 1.0.3
+
+### Patch Changes
+
+-   175b309: Include the repo in package.json
+
 ## 1.0.2
 
 ### Patch Changes

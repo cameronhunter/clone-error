@@ -1,6 +1,6 @@
 {
   "name": "@cameronhunter/clone-error",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Clone an error with an optional cause",
   "scripts": {
     "build": "tsc -p ./tsconfig.build.json",
